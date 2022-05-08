@@ -1,0 +1,26 @@
+{
+  "name": "otus-lesson6-homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitriyPL/otus-lesson6-homework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitriyPL/otus-lesson6-homework/issues"
+  },
+  "homepage": "https://github.com/DmitriyPL/otus-lesson6-homework#readme",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
