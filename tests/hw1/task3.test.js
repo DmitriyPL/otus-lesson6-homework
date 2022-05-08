@@ -1,4 +1,4 @@
-const task3 = require('../tasks/hw1/task3');
+const task3 = require('../../tasks/hw1/task3');
 const sumOfNumbers = task3.sumOfNumbers; 
 
 
