@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/DmitriyPL/otus-lesson6-homework#readme",
   "devDependencies": {
-    "jest": "^28.1.0"
+    "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.0"
   }
 }
