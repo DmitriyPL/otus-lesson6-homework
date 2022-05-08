@@ -1,4 +1,4 @@
-const task2 = require('../tasks/hw1/task2');
+const task2 = require('../../tasks/hw1/task2');
 const lenOfTwoStrings = task2.lenOfTwoStrings; 
 
 
