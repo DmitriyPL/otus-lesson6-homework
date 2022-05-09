@@ -6,7 +6,7 @@ describe("calcSum50to100", () => {
     it('is a function', () => {
         expect(typeof calcSum50to100).toBe("function");
     });
-    it('5 + 5 = 10', () => {
+    it('Sum of all numbers between 50-100 = 3825', () => {
         expect(calcSum50to100()).toBe(3825);
     });
     it('function"s return is a typeof "number"', () => {
