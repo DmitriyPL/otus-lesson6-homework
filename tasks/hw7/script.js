@@ -10,7 +10,8 @@ function readList() {
     return items === null ? [] : items;
 }
 
-function drawList(el, items) {
+function drawList(items) {
+    let el = document.querySelector("#list");
     el.innerHTML = `<ol>${items.map((el) => `<li>${el}</li>`).join("")}</ol>`;
 }
 
@@ -28,13 +29,12 @@ function submitHandler(event, items){
 }
 
 const form = document.querySelector("form");
-const listEl = document.querySelector("#list");
 const items = readList();
 
-drawList(listEl, items);
+drawList(items);
 
 form.addEventListener("submit", (event) => {
     submitHandler(event, items)
-    drawList(listEl, items);
+    drawList(items);
     saveList("list", items);
 });
