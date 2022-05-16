@@ -17,6 +17,6 @@ export function getArithmeticMeanForOdd(userInput) {
 }
 
 function main() {
-  const userInput = prompt('Enter a number');
+  const userInput = prompt("Enter a number");
   getArithmeticMeanForOdd(userInput);
 }

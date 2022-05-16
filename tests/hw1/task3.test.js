@@ -1,8 +1,8 @@
-import { sumOfNumbers } from '../../tasks/hw1/task3';
+import { sumOfNumbers } from "../../tasks/hw1/task3";
 
-describe('sumOfNumbers', () => {
-  it('is a function', () => {
-    expect(typeof sumOfNumbers).toBe('function');
+describe("sumOfNumbers", () => {
+  it("is a function", () => {
+    expect(typeof sumOfNumbers).toBe("function");
   });
   it('"123" sum of numbers is 6', () => {
     expect(sumOfNumbers(123)).toBe(6);
@@ -14,6 +14,6 @@ describe('sumOfNumbers', () => {
     expect(sumOfNumbers(234)).toBe(9);
   });
   it('function"s return is a typeof "number"', () => {
-    expect(typeof sumOfNumbers(234)).toBe('number');
+    expect(typeof sumOfNumbers(234)).toBe("number");
   });
 });

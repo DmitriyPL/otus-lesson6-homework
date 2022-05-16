@@ -19,11 +19,11 @@ export function isEmail(str) {
 }
 
 function main() {
-  const str1 = '2016-07-21';
+  const str1 = "2016-07-21";
 
   isDate(str1);
 
-  const str2 = 'john@gmail.com';
+  const str2 = "john@gmail.com";
 
   isEmail(str2);
 }

@@ -1,6 +1,8 @@
 export function isRectangular(arr) {
   const arrSides = arr.filter((num) => num > 0);
-  if (arrSides.length < 3) { return false; }
+  if (arrSides.length < 3) {
+    return false;
+  }
 
   arrSides.sort((a, b) => a - b);
 
@@ -8,7 +10,7 @@ export function isRectangular(arr) {
   const b = arrSides[1];
   const c = arrSides[2];
 
-  const res = ((a * a + b * b) === c * c);
+  const res = a * a + b * b === c * c;
 
   console.log(res);
 

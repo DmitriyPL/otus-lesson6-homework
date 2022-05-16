@@ -13,16 +13,16 @@ export function addAgetoUser(user, age) {
 export function getAdmin(user) {
   const admin = {};
   Object.assign(admin, user);
-  admin.role = 'admin';
+  admin.role = "admin";
 
   return admin;
 }
 
 function main() {
-  const name = prompt('Enter your name please.');
+  const name = prompt("Enter your name please.");
   const user = makeUser(name);
 
-  const age = prompt('Enter your age please.');
+  const age = prompt("Enter your age please.");
   addAgetoUser(user, age);
 
   const admin = getAdmin(user);

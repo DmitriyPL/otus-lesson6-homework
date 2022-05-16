@@ -7,7 +7,7 @@ export function getSize(square) {
 }
 
 export function circleInSquare(circle, square) {
-  return (getRadius(circle) * 2) <= getSize(square);
+  return getRadius(circle) * 2 <= getSize(square);
 }
 
 function main() {
