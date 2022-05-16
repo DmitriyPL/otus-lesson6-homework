@@ -14,6 +14,7 @@ export function getCircleArea(radius) {
   return area;
 }
 
+// eslint-disable-next-line no-unused-vars
 function main() {
   const radius = 3;
 

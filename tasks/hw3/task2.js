@@ -10,6 +10,7 @@ export function multTableFor7() {
   return res;
 }
 
+// eslint-disable-next-line no-unused-vars
 function main() {
   multTableFor7();
 }

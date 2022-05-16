@@ -10,6 +10,7 @@ export function isWord(str) {
   return res;
 }
 
+// eslint-disable-next-line no-unused-vars
 function main() {
   const str = prompt("Enter string");
 

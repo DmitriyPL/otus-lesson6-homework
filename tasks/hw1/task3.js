@@ -14,7 +14,7 @@ export function sumOfNumbers(num) {
 export function getSumOfNumbers() {
   const num = prompt("Enter a number");
 
-  if (isNaN(Number(num))) {
+  if (Number.isNaN(Number(num))) {
     console.log("Please, enter a number!");
   } else {
     console.log(sumOfNumbers(num));

@@ -4,11 +4,13 @@ export function makeUser(name) {
   };
 }
 
+/* eslint-disable no-param-reassign */
 export function addAgetoUser(user, age) {
   user.age = age;
 
   return user;
 }
+/* eslint-disable no-param-reassign */
 
 export function getAdmin(user) {
   const admin = {};
@@ -18,6 +20,7 @@ export function getAdmin(user) {
   return admin;
 }
 
+// eslint-disable-next-line no-unused-vars
 function main() {
   const name = prompt("Enter your name please.");
   const user = makeUser(name);
@@ -25,5 +28,6 @@ function main() {
   const age = prompt("Enter your age please.");
   addAgetoUser(user, age);
 
+  // eslint-disable-next-line no-unused-vars
   const admin = getAdmin(user);
 }

@@ -9,6 +9,7 @@ export function calcSum50to100() {
   return sum;
 }
 
+// eslint-disable-next-line no-unused-vars
 function main() {
   calcSum50to100();
 }

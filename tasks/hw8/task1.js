@@ -14,6 +14,7 @@ export function getDayOfTheWeek(parseDate) {
   return res;
 }
 
+// eslint-disable-next-line no-unused-vars
 function main() {
   const date = prompt("Enter date in format 'dd.mm.yyyy'");
 

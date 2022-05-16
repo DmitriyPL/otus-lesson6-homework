@@ -9,6 +9,7 @@ export function getMinuteOfThisDay(curTime) {
   return res;
 }
 
+// eslint-disable-next-line no-unused-vars
 function main() {
   const curTime = new Date();
   getMinuteOfThisDay(curTime);

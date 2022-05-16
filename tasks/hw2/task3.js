@@ -10,6 +10,7 @@ export function circleInSquare(circle, square) {
   return getRadius(circle) * 2 <= getSize(square);
 }
 
+// eslint-disable-next-line no-unused-vars
 function main() {
   circleInSquare(2, 3);
 }

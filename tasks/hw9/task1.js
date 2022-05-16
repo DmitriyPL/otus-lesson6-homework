@@ -17,6 +17,7 @@ export function isRectangular(arr) {
   return res;
 }
 
+// eslint-disable-next-line no-unused-vars
 function main() {
   const a = 3;
   const b = 4;

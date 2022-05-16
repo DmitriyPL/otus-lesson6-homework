@@ -24,7 +24,7 @@ export function inputIsOk(input) {
   let isOk = true;
   const castInput = Number(input);
 
-  if (isNaN(castInput)) {
+  if (Number.isNaN(castInput)) {
     console.log("Enter a number between 1-12");
     isOk = false;
   } else if (castInput < 1 || castInput > 12) {
@@ -35,6 +35,7 @@ export function inputIsOk(input) {
   return isOk;
 }
 
+// eslint-disable-next-line no-unused-vars
 function main() {
   const monthNum = prompt("Enter a month number");
   if (inputIsOk(monthNum)) {

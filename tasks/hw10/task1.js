@@ -9,7 +9,7 @@ export function isDate(str) {
 }
 
 export function isEmail(str) {
-  const regex1 = /[\da-z\.]+@[\da-z]+\.[a-z]+/;
+  const regex1 = /[\da-z.]+@[\da-z]+\.[a-z]+/;
 
   const res = regex1.test(str);
 
@@ -18,6 +18,7 @@ export function isEmail(str) {
   return res;
 }
 
+// eslint-disable-next-line no-unused-vars
 function main() {
   const str1 = "2016-07-21";
 

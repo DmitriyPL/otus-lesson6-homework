@@ -19,6 +19,7 @@ export function getMinMax(arr) {
   return ans;
 }
 
+// eslint-disable-next-line no-unused-vars
 function main() {
   const arr = getArr(10);
   console.log(arr);

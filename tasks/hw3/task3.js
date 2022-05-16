@@ -16,6 +16,7 @@ export function getArithmeticMeanForOdd(userInput) {
   return average;
 }
 
+// eslint-disable-next-line no-unused-vars
 function main() {
   const userInput = prompt("Enter a number");
   getArithmeticMeanForOdd(userInput);
