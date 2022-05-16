@@ -1,6 +1,4 @@
-const task1 = require('../../tasks/hw2/task1');
-const getMaxOfTwoNumbers = task1.getMaxOfTwoNumbers; 
-
+import { getMaxOfTwoNumbers } from '../../tasks/hw2/task1';
 
 describe("getMaxOfTwoNumbers", () => {
     it('is a function', () => {

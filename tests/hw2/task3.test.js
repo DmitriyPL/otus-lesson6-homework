@@ -1,8 +1,4 @@
-const task3 = require('../../tasks/hw2/task3');
-const getRadius = task3.getRadius; 
-const getSize = task3.getSize;
-const circleInSquare = task3.circleInSquare;
-
+import { getRadius, getSize, circleInSquare } from '../../tasks/hw2/task3';
 
 describe("getRadius", () => {
     it('is a function', () => {

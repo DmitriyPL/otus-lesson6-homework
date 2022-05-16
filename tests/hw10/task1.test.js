@@ -1,6 +1,4 @@
-const task1 = require('../../tasks/hw10/task1');
-const isDate = task1.isDate;
-const isEmail = task1.isEmail;
+import { isDate, isEmail } from '../../tasks/hw10/task1';
 
 
 describe("isDate", () => {

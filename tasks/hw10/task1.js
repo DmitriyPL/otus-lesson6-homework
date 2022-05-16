@@ -1,10 +1,8 @@
-module.exports = { isDate, isEmail };
-
-function isDate(str){
+export function isDate(str){
  
     const regex1 = new RegExp(/\d{4}(-|\/| |.)\d{2}\1\d{2}/);
 
-    res = regex1.test(str);
+    const res = regex1.test(str);
 
     console.log(res);
 
@@ -12,11 +10,11 @@ function isDate(str){
 
 }
 
-function isEmail(str){
+export function isEmail(str){
  
     const regex1 = new RegExp(/[\da-z\.]+@[\da-z]+\.[a-z]+/);
 
-    res = regex1.test(str);
+    const res = regex1.test(str);
 
     console.log(res);
 

@@ -1,6 +1,4 @@
-module.exports = { calcSum50to100 };
-
-function calcSum50to100(){
+export function calcSum50to100(){
     let sum = 0;
     
     for(let i=50; i<=100; i++){

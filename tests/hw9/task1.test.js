@@ -1,5 +1,4 @@
-const task1 = require('../../tasks/hw9/task1');
-const isRectangular = task1.isRectangular;
+import { isRectangular } from '../../tasks/hw9/task1';
 
 
 describe("isRectangular", () => {

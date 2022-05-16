@@ -1,6 +1,4 @@
-module.exports = { getMonthName, inputIsOk };
-
-function getMonthName(monthNum){
+export function getMonthName(monthNum){
     
     const dictMonth = {
         1:  "Январь",
@@ -23,7 +21,7 @@ function getMonthName(monthNum){
     return monthName;
 }
 
-function inputIsOk(input){
+export function inputIsOk(input){
     let isOk = true;
     const castInput = Number(input);
 

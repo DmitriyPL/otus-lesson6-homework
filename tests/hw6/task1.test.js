@@ -1,5 +1,4 @@
-const task1 = require('../../tasks/hw6/task1');
-const getDiff = task1.getDiff;
+import { getDiff } from '../../tasks/hw6/task1';
 
 
 describe("getDiff", () => {

@@ -1,9 +1,6 @@
-const task1 = require('../../tasks/hw4/task1');
-const makeUser = task1.makeUser;
-const addAgetoUser = task1.addAgetoUser; 
-const getAdmin = task1.getAdmin;  
+import { makeUser, addAgetoUser, getAdmin } from '../../tasks/hw4/task1';
 
-user = { name: "John" };
+const user = { name: "John" };
 
 describe("makeUser", () => {
     it('is a function', () => {

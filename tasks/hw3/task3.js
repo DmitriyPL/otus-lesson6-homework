@@ -1,6 +1,4 @@
-module.exports = { getArithmeticMeanForOdd };
-
-function getArithmeticMeanForOdd(userInput){
+export function getArithmeticMeanForOdd(userInput){
     
     let sum = 0;
     let counter = 0;

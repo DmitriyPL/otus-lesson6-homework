@@ -1,5 +1,4 @@
-const task2 = require('../../tasks/hw3/task2');
-const multTableFor7 = task2.multTableFor7; 
+import { multTableFor7 } from '../../tasks/hw3/task2';
 
 
 describe("multTableFor7", () => {

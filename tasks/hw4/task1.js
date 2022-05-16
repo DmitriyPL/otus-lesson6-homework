@@ -1,19 +1,17 @@
-module.exports = { makeUser, addAgetoUser, getAdmin };
-
-function makeUser(name) {
+export function makeUser(name) {
     return {
         name
     };
 }
 
-function addAgetoUser(user, age){
+export function addAgetoUser(user, age){
     
     user.age = age;
     
     return user;
 }
 
-function getAdmin(user){
+export function getAdmin(user){
 
     const admin = {};
     Object.assign(admin, user);    

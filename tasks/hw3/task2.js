@@ -1,6 +1,4 @@
-module.exports = { multTableFor7 };
-
-function multTableFor7(){
+export function multTableFor7(){
     
     let res = [];
 

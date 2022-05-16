@@ -1,5 +1,4 @@
-const task2 = require('../../tasks/hw6/task2');
-const isWord = task2.isWord;
+import { isWord } from '../../tasks/hw6/task2';
 
 
 describe("isWord", () => {

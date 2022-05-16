@@ -1,9 +1,6 @@
-const task1 = require('../../tasks/hw5/task1');
-const getArr = task1.getArr;
-const getArrSumElements = task1.getArrSumElements; 
-const getModifyArr = task1.getModifyArr;  
+import { getArr, getArrSumElements, getModifyArr } from '../../tasks/hw5/task1';
 
-arr = getArr(10);
+const arr = getArr(10);
 
 describe("getArr", () => {
     it('is a function', () => {

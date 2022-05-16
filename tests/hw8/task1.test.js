@@ -1,7 +1,4 @@
-const task1 = require('../../tasks/hw8/task1');
-const getParseDate = task1.getParseDate;
-const getDayOfTheWeek = task1.getDayOfTheWeek;
-
+import { getParseDate, getDayOfTheWeek } from '../../tasks/hw8/task1';
 
 describe("getParseDate", () => {
     it('is a function', () => {
@@ -17,7 +14,7 @@ describe("getParseDate", () => {
 
 describe("getDayOfTheWeek", () => {
 
-    parseDate = getParseDate("09.05.2022");
+    const parseDate = getParseDate("09.05.2022");
 
     it('is a function', () => {
         expect(getDayOfTheWeek).toBeInstanceOf(Function);

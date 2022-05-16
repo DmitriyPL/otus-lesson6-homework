@@ -1,6 +1,4 @@
-const task3 = require('../../tasks/hw1/task3');
-const sumOfNumbers = task3.sumOfNumbers; 
-
+import { sumOfNumbers } from "../../tasks/hw1/task3";
 
 describe("sumOfNumbers", () => {
     it('is a function', () => {

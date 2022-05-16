@@ -1,7 +1,4 @@
-const task2 = require('../../tasks/hw2/task2');
-const getMonthName = task2.getMonthName; 
-const inputIsOk = task2.inputIsOk;
-
+import { getMonthName, inputIsOk } from '../../tasks/hw2/task2';
 
 describe("getMonthName", () => {
     it('is a function', () => {

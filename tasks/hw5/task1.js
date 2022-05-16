@@ -1,18 +1,16 @@
-module.exports = { getArr, getArrSumElements, getModifyArr };
-
-function getArr(len) {
+export function getArr(len) {
     return [...Array(len).keys()];
 }
 
-function getArrSumElements(arr){
+export function getArrSumElements(arr){
     return arr.reduce( (prevVal, currVal) => prevVal + currVal, 0 );
 }
 
-function getModifyArr(arr){
+export function getModifyArr(arr){
     return arr.map((x) => x*2);
 }
 
-function getMinMax(arr){
+export function getMinMax(arr){
     
     let ans = {};
     

@@ -1,6 +1,4 @@
-module.exports = { getDiff };
-
-function getDiff(num1, num2){
+export function getDiff(num1, num2){
     
     const max = Math.max(num1, num2);
     const min = Math.min(num1, num2);

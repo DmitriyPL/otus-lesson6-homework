@@ -1,5 +1,4 @@
-const task3 = require('../../tasks/hw3/task3');
-const getArithmeticMeanForOdd = task3.getArithmeticMeanForOdd; 
+import { getArithmeticMeanForOdd } from '../../tasks/hw3/task3';
 
 
 describe("getArithmeticMeanForOdd", () => {

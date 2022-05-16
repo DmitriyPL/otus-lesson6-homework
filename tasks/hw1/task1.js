@@ -1,5 +1,3 @@
-// module.exports = { calcSum, calcMultiplication };
-
 export function calcSum(num1, num2){
     const sum = num1 + num2; 
     console.log(sum);

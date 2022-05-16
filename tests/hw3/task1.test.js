@@ -1,6 +1,4 @@
-const task1 = require('../../tasks/hw3/task1');
-const calcSum50to100 = task1.calcSum50to100; 
-
+import { calcSum50to100 } from '../../tasks/hw3/task1';
 
 describe("calcSum50to100", () => {
     it('is a function', () => {

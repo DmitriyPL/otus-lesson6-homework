@@ -1,6 +1,4 @@
-const task2 = require('../../tasks/hw9/task2');
-const getCircumferenceLength = task2.getCircumferenceLength;
-const getCircleArea = task2.getCircleArea;
+import { getCircumferenceLength, getCircleArea } from '../../tasks/hw9/task2';
 
 
 describe("getCircumferenceLength", () => {
@@ -40,7 +38,7 @@ describe("getCircleArea", () => {
     it('Function getCircleArea return 78.54', () => {
         expect(getCircleArea(5)).toBe("78.54");
     });              
-    it('function"s return is a typeof "boolean"', () => {
+    it('function"s return is a typeof "string"', () => {
         expect(typeof getCircleArea(3)).toBe("string");
     });        
 });

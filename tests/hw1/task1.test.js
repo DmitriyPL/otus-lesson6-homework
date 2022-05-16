@@ -1,7 +1,3 @@
-// const task1 = require('../../tasks/hw1/task1');
-// const calcSum = task1.calcSum; 
-// const calcMultiplication = task1.calcMultiplication;
-
 import { calcSum, calcMultiplication } from "../../tasks/hw1/task1";
 
 describe("calcSum", () => {

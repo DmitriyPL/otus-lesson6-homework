@@ -1,11 +1,9 @@
-module.exports = { getMinuteOfThisDay };
-
-function getMinuteOfThisDay(curTime){
+export function getMinuteOfThisDay(curTime){
 
     const hr = curTime.getHours();
     const min = curTime.getMinutes();
 
-    res = hr * 60 + min;
+    const res = hr * 60 + min;
 
     console.log(res);
 

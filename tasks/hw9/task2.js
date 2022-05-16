@@ -1,6 +1,4 @@
-module.exports = { getCircumferenceLength, getCircleArea };
-
-function getCircumferenceLength(radius){
+export function getCircumferenceLength(radius){
  
     const length = (2 * Math.PI * radius).toFixed(2);
 
@@ -9,7 +7,7 @@ function getCircumferenceLength(radius){
     return length;
 }
 
-function getCircleArea(radius){
+export function getCircleArea(radius){
  
   const area = (Math.PI * radius * radius).toFixed(2);
 

@@ -1,6 +1,4 @@
-const task2 = require('../../tasks/hw1/task2');
-const lenOfTwoStrings = task2.lenOfTwoStrings; 
-
+import { lenOfTwoStrings } from "../../tasks/hw1/task2";
 
 describe("lenOfTwoStrings", () => {
     it('is a function', () => {

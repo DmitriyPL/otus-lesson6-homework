@@ -1,6 +1,4 @@
-module.exports = { isRectangular };
-
-function isRectangular(arr){
+export function isRectangular(arr){
  
     let arrSides = arr.filter(num => num > 0);
     if (arrSides.length < 3) { return false; }
@@ -13,7 +11,7 @@ function isRectangular(arr){
     const b = arrSides[1];
     const c = arrSides[2];
 
-    res = ( (a*a + b*b) === c*c ) ? true : false;
+    const res = ( (a*a + b*b) === c*c ) ? true : false;
 
     console.log(res);
 

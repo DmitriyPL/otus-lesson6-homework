@@ -1,12 +1,10 @@
-module.exports = { isWord };
-
-function isWord(str){
+export function isWord(str){
     
     const trimStr = str.trim(); 
 
     const arrWords = trimStr.split(" ");
 
-    res = (arrWords.length > 1) ? false : true;
+    const res = (arrWords.length > 1) ? false : true;
 
     console.log(res);
 
