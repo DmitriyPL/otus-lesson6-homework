@@ -14,3 +14,5 @@ export function showSumAndMultiplication(num1, num2) {
   calcSum(num1, num2);
   calcMultiplication(num1, num2);
 }
+
+// test husky work ++
