@@ -1,19 +1,15 @@
-export function getMinuteOfThisDay(curTime){
+export function getMinuteOfThisDay(curTime) {
+  const hr = curTime.getHours();
+  const min = curTime.getMinutes();
 
-    const hr = curTime.getHours();
-    const min = curTime.getMinutes();
+  const res = hr * 60 + min;
 
-    const res = hr * 60 + min;
+  console.log(res);
 
-    console.log(res);
-
-    return res;
+  return res;
 }
 
-function main(){
-    
-    const curTime = new Date();
-    getMinuteOfThisDay(curTime); 
-
+function main() {
+  const curTime = new Date();
+  getMinuteOfThisDay(curTime);
 }
-

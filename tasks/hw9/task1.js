@@ -1,32 +1,26 @@
-export function isRectangular(arr){
- 
-    let arrSides = arr.filter(num => num > 0);
-    if (arrSides.length < 3) { return false; }
+export function isRectangular(arr) {
+  const arrSides = arr.filter((num) => num > 0);
+  if (arrSides.length < 3) { return false; }
 
-    arrSides.sort(function(a, b) {
-      return a - b;
-    });
- 
-    const a = arrSides[0];
-    const b = arrSides[1];
-    const c = arrSides[2];
+  arrSides.sort((a, b) => a - b);
 
-    const res = ( (a*a + b*b) === c*c ) ? true : false;
+  const a = arrSides[0];
+  const b = arrSides[1];
+  const c = arrSides[2];
 
-    console.log(res);
+  const res = ((a * a + b * b) === c * c);
 
-    return res;
+  console.log(res);
+
+  return res;
 }
 
-function main(){
-    
-    const a = 3;
-    const b = 4;
-    const c = 5;
-    
-    let arrSides = [a, b, c];
+function main() {
+  const a = 3;
+  const b = 4;
+  const c = 5;
 
-    isRectangular(arrSides); 
+  const arrSides = [a, b, c];
 
+  isRectangular(arrSides);
 }
-

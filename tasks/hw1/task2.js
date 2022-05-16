@@ -1,6 +1,6 @@
-export function lenOfTwoStrings(str1, str2){
-    const strLen = str1.length + str2.length;
-    console.log(strLen);
+export function lenOfTwoStrings(str1, str2) {
+  const strLen = str1.length + str2.length;
+  console.log(strLen);
 
-    return strLen;
+  return strLen;
 }
