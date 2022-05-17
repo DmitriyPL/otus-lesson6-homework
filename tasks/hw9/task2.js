@@ -1,0 +1,23 @@
+export function getCircumferenceLength(radius) {
+  const length = (2 * Math.PI * radius).toFixed(2);
+
+  console.log(length);
+
+  return length;
+}
+
+export function getCircleArea(radius) {
+  const area = (Math.PI * radius * radius).toFixed(2);
+
+  console.log(area);
+
+  return area;
+}
+
+// eslint-disable-next-line no-unused-vars
+function main() {
+  const radius = 3;
+
+  getCircumferenceLength(radius);
+  getCircleArea(radius);
+}
