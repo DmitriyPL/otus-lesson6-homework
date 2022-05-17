@@ -20,6 +20,8 @@
         "ignoreComments": true,
         "code": 120
       }
-    ]
+    ],
+    "no-shadow": "off",
+    "import/extensions": [0, { ".js": "always" }]
   }
 }
